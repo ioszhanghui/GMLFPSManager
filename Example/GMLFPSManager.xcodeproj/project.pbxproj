@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16450C32D0D6A580D7D33998 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		16450C32D0D6A580D7D33998 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		37D4C0758A477F7468D03E67 /* Pods-GMLFPSManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMLFPSManager_Example.release.xcconfig"; path = "Target Support Files/Pods-GMLFPSManager_Example/Pods-GMLFPSManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GMLFPSManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMLFPSManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,14 +59,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86D8F1F36A595201931E05C0 /* GMLFPSManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GMLFPSManager.podspec; path = ../GMLFPSManager.podspec; sourceTree = "<group>"; };
+		86D8F1F36A595201931E05C0 /* GMLFPSManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GMLFPSManager.podspec; path = ../GMLFPSManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A601825C517E10D61937A418 /* Pods_GMLFPSManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMLFPSManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46249EC86FE01CA282BE2ED /* Pods-GMLFPSManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMLFPSManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-GMLFPSManager_Tests/Pods-GMLFPSManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BC9884CDFF8886850279473C /* Pods-GMLFPSManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMLFPSManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-GMLFPSManager_Example/Pods-GMLFPSManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D753E28B34F7C1610A809F51 /* Pods-GMLFPSManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMLFPSManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GMLFPSManager_Tests/Pods-GMLFPSManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8E9B9F891F96EE2C4A2F15B /* Pods_GMLFPSManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMLFPSManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9126009CC766F86D2290365 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F9126009CC766F86D2290365 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				D753E28B34F7C1610A809F51 /* Pods-GMLFPSManager_Tests.debug.xcconfig */,
 				B46249EC86FE01CA282BE2ED /* Pods-GMLFPSManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

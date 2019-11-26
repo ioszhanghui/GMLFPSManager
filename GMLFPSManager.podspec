@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GMLFPSManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GMLFPSManager.'
+  s.summary          = '卡顿刷新工具.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+LFPS工具的进一步分装 方便使用
                        DESC
 
-  s.homepage         = 'https://github.com/ioszhanghui@163.com/GMLFPSManager'
+  s.homepage         = 'https://github.com/ioszhanghui/GMLFPSManager.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ioszhanghui@163.com' => 'yomingyo@gmail.com' }
-  s.source           = { :git => 'https://github.com/ioszhanghui@163.com/GMLFPSManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ioszhanghui/GMLFPSManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
+  s.requires_arc = true
 
   s.source_files = 'GMLFPSManager/Classes/**/*'
   

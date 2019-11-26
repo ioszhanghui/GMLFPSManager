@@ -1,0 +1,23 @@
+{
+  "name": "GMLFPSManager",
+  "version": "0.1.0",
+  "summary": "卡顿刷新工具.",
+  "description": "LFPS工具的进一步分装 方便使用",
+  "homepage": "https://github.com/ioszhanghui/GMLFPSManager.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ioszhanghui@163.com": "yomingyo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ioszhanghui/GMLFPSManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source_files": "GMLFPSManager/Classes/**/*"
+}
